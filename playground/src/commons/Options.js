@@ -11,7 +11,13 @@ const setDefaultOptions = () => Navigation.setDefaultOptions({
   },
   bottomTab: {
     selectedIconColor: Colors.primary,
-    selectedTextColor: Colors.primary
+    selectedTextColor: Colors.primary,
+    iconInsets: {
+      top: 3,
+      left: 3,
+      bottom: 3,
+      right: 3,
+    },
   }
 });
 

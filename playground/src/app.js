@@ -49,7 +49,13 @@ function start() {
                   bottomTab: {
                     text: 'Layouts',
                     icon: require('../img/layouts.png'),
-                    testID: testIDs.LAYOUTS_TAB
+                    testID: testIDs.LAYOUTS_TAB,
+                    iconInsets: {
+                      top: 3,
+                      left: 3,
+                      bottom: 3,
+                      right: 3,
+                    },
                   }
                 }
               }
